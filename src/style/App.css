@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
+
+:root {
+  --background: rgba(85, 214, 170, .85);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 6vw 0;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  background-color: black;
+  color: rgb(171, 163, 152);
+}
+
+.App {
+  text-align: center;
+}
+
+.grid {
+  margin: auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid img {
+  width: 3.5em;
+}
+
+.grid table td{
+  width: 20em;
+  text-align: center;
+}
+
+
+/* this is for testing to see column boxes */
+
+.col {
+  /* padding: 3em; */
+  background: rgba(0,0,0,0.1);
+  border: 3px solid rgba(0,0,0,0.2);
+  box-sizing: border-box; 
+}
+
+.content {
+  width: 90vw;
+  margin: 3rem auto;
+  padding: 2em;
+  box-shadow: 0 0 3em rgba(0,0,0,0.2);
+  background: #202324;
+}
+
+/* end of testing */
+
